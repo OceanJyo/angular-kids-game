@@ -29,3 +29,6 @@ jobs:
         cache-dependency-path: ./angular-kids-games/package-lock.json
     - run: npm ci
       working-directory: ./angular-kids-games
+    - name: Run tests
+      run: npm run test:ci
+      

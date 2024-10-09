@@ -27,4 +27,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
         cache-dependency-path: ./angular-kids-games/package-lock.json
+    - run: npm ci
     

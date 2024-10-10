@@ -13,7 +13,7 @@ export const routes: Routes = [
     },
     {
         path: '',
-        redirectTo: 'points24',
+        redirectTo: 'matchpair',
         pathMatch: 'full'
     },
 ];

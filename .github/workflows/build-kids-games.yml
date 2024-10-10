@@ -39,7 +39,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4
+        uses: JamesIves/github-pages-deploy-action@4.6.8
         with:
           branch: kids-games
           folder: angular-kids-games/dist/kids-games/browser

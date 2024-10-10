@@ -37,7 +37,7 @@ jobs:
       - name: Run tests
         run: npm run test:ci
       - name: Build
-        run: npm run build
+        run: npm run build:cd
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.6.8
         with:
